@@ -1,6 +1,6 @@
 steps:
 
-- name: "gcr.io/$PROJECT_ID/envsubst"
+- name: gcr.io/$PROJECT_ID/envsubst
   args: ["test.txt"]
   env:
   - "_ENV_=$PROJECT_ID"
